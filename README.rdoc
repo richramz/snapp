@@ -1,28 +1,13 @@
-== README
+== SNAPP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Social Network App for AME 494 - AME 598 Fall 2013
 
-Things you may want to cover:
+Please see the Google Doc shared in class for the system design specifications (such as they are). Following are a few starting assumptions and general things to know.
 
-* Ruby version
+* Ruby version 2.0
 
-* System dependencies
+* Rails version 4.0.0
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Following good practice, the config/database.yml is not included as part of the git repository. Copy config/database.sample and rename it config/database.yml - at this time there shouldn't be any other changes needed.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
