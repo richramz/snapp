@@ -1,4 +1,31 @@
 Snapp::Application.routes.draw do
+  
+  resources :users do
+    resources :posts do
+      resources :comments
+    end
+    resource :profile
+    resource :interests
+    resources :follows
+    resources :messages
+    resources :images
+    resources :albums
+  end
+  
+  resources :groups do
+    resources :roles
+  end
+  
+  resources :questions do
+    resources :answers
+    resources :tags
+  end
+  
+  resources :events do
+    resources :invites
+  end
+  
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
