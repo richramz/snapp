@@ -1,5 +1,12 @@
 Snapp::Application.routes.draw do
   
+  get "images/new"
+  get "images/create"
+  get "images/edit"
+  get "images/update"
+  get "images/destroy"
+  get "images/index"
+  get "images/show"
   resources :users do
     resources :posts do
       resources :comments
