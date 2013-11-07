@@ -1,7 +1,7 @@
 # https://github.com/plataformatec/devise
 gem 'devise'
 
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem "carrierwave", "~> 0.9.0"
 
