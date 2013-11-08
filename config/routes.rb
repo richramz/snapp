@@ -5,6 +5,7 @@ Snapp::Application.routes.draw do
     resources :posts do
       resources :comments
       resources :likes
+      resources :dislikes
     end
     resource :profile
     resource :interests
